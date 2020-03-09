@@ -22,7 +22,23 @@ body{
 .screen{
     height: 487px;
     width: 224px;
-    margin: auto;
-    padding: auto;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.topPanel{
+    width: 180px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+}
+button{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: #D3E1F7;
 }
