@@ -5,6 +5,7 @@
 }
 :root{
     --cardBg: #D3E1F7;
+    --blue: #6B95FF;
 }
 body{
     display: flex;
@@ -35,7 +36,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: yellow;
 }
 button{
     height: 28px;
@@ -46,18 +46,35 @@ button{
     outline: none;
     background-color: #D3E1F7;
 }
-/* img{
+img{
     height: 164px;
     width: 164px;
     border-radius: 50%;
     border: 3px solid black;
-} */
+}
 .songName{
     height: auto;
     width: auto;
     text-align: center;
-    background-color: blue;
 }
 p{
     font-size: 10px;
+}
+.seekBar{
+    width: 163px;
+    border-bottom: 3px solid var(--blue);
+    border-radius: 10px;
+}
+.btnRow{
+    height: 48px;
+    width: 163px;
+    display: flex;
+    justify-content: space-between;
+}
+#controls{
+    height: 48px;
+    width: 48px;
+}
+.pause{
+    background-color: var(--blue)
 }
