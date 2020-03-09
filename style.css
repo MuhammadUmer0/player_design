@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 :root{
     --cardBg: #D3E1F7;
@@ -23,6 +23,7 @@ body{
     height: 487px;
     width: 224px;
     background-color: white;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -40,5 +41,23 @@ button{
     height: 28px;
     width: 28px;
     border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    outline: none;
     background-color: #D3E1F7;
+}
+/* img{
+    height: 164px;
+    width: 164px;
+    border-radius: 50%;
+    border: 3px solid black;
+} */
+.songName{
+    height: auto;
+    width: auto;
+    text-align: center;
+    background-color: blue;
+}
+p{
+    font-size: 10px;
 }
