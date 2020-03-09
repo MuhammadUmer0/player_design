@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+:root{
+    --cardBg: #D3E1F7;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 540px;
+    width: 720px;
+    background-color: var(--cardBg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen{
+    height: 487px;
+    width: 224px;
+    margin: auto;
+    padding: auto;
+    background-color: white;
+}
